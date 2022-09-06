@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    background-color: rgb(102, 247, 6);
+    width: 100%;
+    float: left;
+}
+header:hover{
+    background-color: fuchsia;
+    transition: 0.5s;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+nav{
+    width: 100%;
+    float: left;
+    margin: 10px;
+}
+.logo-part{
+    width: 50%;
+    float: left;
+}
+.menu-part{
+    width: 50%;
+    float: left;
+}
+.hero-part{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+#services{
+    background-color:aqua;
+    width: 100%;
+    float: left;
+}
+#service-writting-part{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+#service-box-part{
+    width: 100%;
+    float: left;
+}
+#service-box{
+    width: 25%;
+    float: left;
+}
+footer{
+    width: 100%;
+    float: left;
+    background-color: aquamarine;
+}
+#writting{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+#footer-box{
+width: 100%;
+float: left;
+}
+#box{
+width: 20%;
+float: left;
+}
+button{
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: blue;
+    color:blue;
+    transition: 0.5s;
+}
